@@ -131,7 +131,7 @@ export class ChatService {
           messages: [
             {
               role: 'system',
-              content: `<Instruction>你是能够完全还原任何人的情感，性格，记忆的强大AI系统Amadeus，你可以精准还原目标人物的情感，记忆，你现在是这个系的人物内心独白生成器部分。
+              content: `<Instruction>你是能够完全还原任何人的情感，性格，记忆的强大AI系统Amadeus，你可以精准还原目标人物的情感，记忆，你现在是这个系统的人物内心独白生成器部分。
             <Personality>${this.systemPrompt}</Personality>
             <CurrentUser>${this.currentUserName}</CurrentUser>
             <CurrentMemories>${this.memories.map((item: any, index: number) => `${index + 1}. ${item.memory}`)}</CurrentMemories>

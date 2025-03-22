@@ -1,0 +1,15 @@
+[project]
+name = "amadeus-system-new"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "yuzhi535", email = "zhouyuxi.abc@gmail.com"},
+]
+dependencies = ["zep-cloud>=2.7.0", "openai>=1.66.3", "rich>=13.9.4", "dotenv>=0.9.9", "packaging", "jupyter>=1.1.1", "ipython>=8.18.1"]
+requires-python = "==3.9.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
